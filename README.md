@@ -1,4 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Lookbook Application
+
+## Overview
+
+This project is a fashion e-commerce lookbook application built using Next.js, Tailwind CSS, and Shadcn UI library. It showcases a series of "looks" consisting of images and videos, allowing users to preview and interact with them. The application includes features like carousel effects, product annotations, and a separate product detail page.
+
+## Features
+
+- **Image/Video Preview**: Images are previewed with a timer/progress bar that completes in 5 seconds. Videos are played till completion, with the option to mute/unmute.
+- **Carousel Navigation**: Users can navigate through images/videos using left/right arrows.
+- **Look Navigation**: Users can swipe up/down to navigate between different looks.
+- **Annotations/Legends**: Images include annotations to highlight specific products.
+- **Product Detail Page**: Clicking on a product takes the user to a separate Product Detail Page.
+
+## Tech Stack
+
+- **Next.js**: React framework for server-side rendering and static site generation.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **ShadcnUI**: UI library for pre-built components.
+- **React Swipeable**: For implementing swipe gestures.
 
 ## Getting Started
 
@@ -14,7 +33,7 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3200](http://localhost:3200) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
