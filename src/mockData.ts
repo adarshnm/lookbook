@@ -48,9 +48,10 @@ export const mockData: Look[] = [
     ],
     products: [
       {
-        slug: "jacket-1",
-        name: "Beige Jacket",
-        description: "Men Double-Breasted Long Sleeve Overcoat",
+        slug: "night-suit-1",
+        name: "Night Suit",
+        description: "Women Printed Night suit",
+        images: ["/products/SANSKRUTIHOMESWomenGreyWhitePrintedNightsuit1.jpg"],
       },
     ],
   },
@@ -74,6 +75,13 @@ export const mockData: Look[] = [
         name: "Beige Jacket",
         description: "Men Double-Breasted Long Sleeve Overcoat",
       },
+      {
+        slug: "shirt-1",
+        name: "VASTRADOM",
+        description:
+          "Classic Geometric Embroidered Spread Collar Cotton Shirt MS5475A-White",
+        images: ["'/products/VASTRADOMenClassicOpaquePrintedCasualShirt1.jpg"],
+      },
     ],
   },
 ];
@@ -90,5 +98,18 @@ export const products: Product[] = [
     name: "Beige Jacket",
     description: "Men Double-Breasted Long Sleeve Overcoat",
     images: ["/products/product-jacket.jpg", "/products/product-jacket.jpg"],
+  },
+  {
+    slug: "night-suit-1",
+    name: "Night Suit",
+    description: "Women Printed Night suit",
+    images: ["/products/SANSKRUTIHOMESWomenGreyWhitePrintedNightsuit1.jpg"],
+  },
+  {
+    slug: "shirt-1",
+    name: "VASTRADOM",
+    description:
+      "Classic Geometric Embroidered Spread Collar Cotton Shirt MS5475A-White",
+    images: ["'/products/VASTRADOMenClassicOpaquePrintedCasualShirt1.jpg"],
   },
 ];
